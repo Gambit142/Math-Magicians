@@ -44,7 +44,7 @@ npm run build
 
 ## Authors
 
-:man::skin-tone-6:  **Author1**
+:man::skin-tone-6: **Author1**
 
 - GitHub: [@Gambit142](https://github.com/Gambit142)
 - LinkedIn: [Francis Ugorji](www.linkedin.com/in/francis-ugorji-a567b7168)
