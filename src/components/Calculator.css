@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(116, 116, 116);
+}
+
+.display-div {
+  padding: 1.2rem;
+  align-self: stretch;
+  background: #8b8888;
+  text-align: end;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.button-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+  /* grid-row-gap: 2px; */
+}
+
+.button-grid button {
+  padding: 2rem;
+  font-size: 1rem;
+  border: 1px solid #e5c7b2;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.orange-background {
+  background-color: #f98538;
+}
