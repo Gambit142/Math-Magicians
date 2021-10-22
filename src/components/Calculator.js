@@ -1,49 +1,35 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import './Calculator.css';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.buttonClicked = this.buttonClicked.bind(this);
-  }
-
-  buttonClicked(e) {
-    const { btn } = this.props;
+const Calculator = (props) => {
+  function buttonClicked(e) {
+    const { btn } = props;
     btn(e.target.innerHTML);
   }
+  const { variable } = props;
+  const { next, total } = variable;
 
-  render() {
-    const { variable } = this.props;
-    const { next, total } = variable;
-    return (
-      <div className="calculator-div">
-        <div className="display-div">{!next ? total : next}</div>
-        <div className="button-grid">
-          <button onClick={this.buttonClicked} type="button">AC</button>
-          <button onClick={this.buttonClicked} type="button">+/-</button>
-          <button onClick={this.buttonClicked} type="button">%</button>
-          <button onClick={this.buttonClicked} type="button" className="orange-background">&#247;</button>
-          <button onClick={this.buttonClicked} type="button">7</button>
-          <button onClick={this.buttonClicked} type="button">8</button>
-          <button onClick={this.buttonClicked} type="button">9</button>
-          <button onClick={this.buttonClicked} type="button" className="orange-background">&#215;</button>
-          <button onClick={this.buttonClicked} type="button">4</button>
-          <button onClick={this.buttonClicked} type="button">5</button>
-          <button onClick={this.buttonClicked} type="button">6</button>
-          <button onClick={this.buttonClicked} type="button" className="orange-background">-</button>
-          <button onClick={this.buttonClicked} type="button">1</button>
-          <button onClick={this.buttonClicked} type="button">2</button>
-          <button onClick={this.buttonClicked} type="button">3</button>
-          <button onClick={this.buttonClicked} type="button" className="orange-background">+</button>
-          <button onClick={this.buttonClicked} type="button" className="zero">0</button>
-          <button onClick={this.buttonClicked} type="button">.</button>
-          <button onClick={this.buttonClicked} type="button" className="orange-background">=</button>
-        </div>
+  const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
+    '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+  const generateClassName = (className) => {
+    if (className === '\u00F7' || className === '\u00D7'
+    || className === '-' || className === '+' || className === '=') {
+      return 'orange-background';
+    }
+    if (className === '0') {
+      return 'zero';
+    }
+    return '';
+  };
+  return (
+    <div className="calculator-div">
+      <div className="display-div">{!next ? total : next}</div>
+      <div className="button-grid">
+        {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={buttonClicked} type="button">{button}</button>))}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 Calculator.propTypes = {
   btn: PropTypes.func.isRequired,
