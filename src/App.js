@@ -4,7 +4,11 @@ import Calculator from './components/Calculator';
 import calculate from './logic/calculate';
 
 const App = () => {
-  const [object, updateCalculatorObject] = useState({});
+  const [object, updateCalculatorObject] = useState({
+    total: '',
+    next: '',
+    operation: '',
+  });
   const updateButton = (currentButton) => {
     const calculatorObject = calculate(object, currentButton);
     updateCalculatorObject(calculatorObject);
