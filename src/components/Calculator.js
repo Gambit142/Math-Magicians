@@ -5,10 +5,10 @@ const Calculator = (props) => {
   const { variable } = props;
   const { next, total, operation } = variable;
 
-  function buttonClicked(e) {
+  const buttonClicked = (e) => {
     const { btn } = props;
     btn(e.target.innerHTML);
-  }
+  };
 
   const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
     '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
