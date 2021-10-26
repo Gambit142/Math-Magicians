@@ -30,12 +30,24 @@ const Calculator = (props) => {
     result = next;
   }
   return (
-    <div className="calculator-div">
-      <div className="display-div">{result || 0}</div>
-      <div className="button-grid">
-        {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={buttonClicked} type="button">{button}</button>))}
+    <>
+      <p>Let&apos;s Do Some Maths</p>
+      <div className="calculator-div">
+        <div className="display-div">{result || 0}</div>
+        <div className="button-grid">
+          {buttonNames.map((button) => (
+            <button
+              key={button}
+              className={generateClassName(button)}
+              onClick={buttonClicked}
+              type="button"
+            >
+              {button}
+            </button>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
