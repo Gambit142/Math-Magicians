@@ -15,8 +15,8 @@ const NavigationLinks = () => {
     },
     {
       id: 3,
-      linkName: 'Quote',
-      path: '/quote',
+      linkName: 'Quotes',
+      path: '/quotes',
     },
   ];
 
