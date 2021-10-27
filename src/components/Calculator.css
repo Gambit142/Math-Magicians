@@ -135,7 +135,6 @@ body {
   }
 
   .navbar h1 {
-    font-size: 1.8rem;
     padding-top: 1rem;
     align-self: center;
   }
@@ -148,5 +147,15 @@ body {
   .welcome {
     font-size: 1.3rem;
     margin: 5rem 1rem 1rem 1rem;
+  }
+
+  .calculator-container {
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: 3rem;
+  }
+
+  .calculator-container p {
+    align-self: center;
   }
 }
