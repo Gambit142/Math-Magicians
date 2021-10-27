@@ -18,7 +18,7 @@ body {
 
 .calculator-container p {
   font-size: 2rem;
-  font-family: 'Quantico';
+  font-family: 'Quantico', cursive;
   color: #603d14;
 }
 
