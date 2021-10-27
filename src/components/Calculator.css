@@ -46,3 +46,50 @@ body {
 .orange-background {
   background-color: #f98538;
 }
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2e1309;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-family: 'Henny Penny', cursive;
+  font-size: 2.2rem;
+  color: #bfb8b8;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 1.5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: 'Quantico', sans-serif;
+  font-size: 1.2rem;
+  color: #f5f763;
+}
+
+.navbar ul li a:active,
+.navbar ul li a:focus {
+  border: 2px solid #f5f763;
+  padding: 0.7rem;
+}
+
+.welcome {
+  font-family: 'Quantico', sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+}

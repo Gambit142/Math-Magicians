@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './components/Calculator.css';
 
 const NavigationLinks = () => {
   const links = [
@@ -22,7 +23,7 @@ const NavigationLinks = () => {
 
   return (
     <>
-      <div>
+      <div className="navbar">
         <h1>Math Magicians</h1>
         <ul>
           {links.map((link) => (
