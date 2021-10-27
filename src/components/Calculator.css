@@ -93,3 +93,19 @@ body {
   font-size: 2rem;
   margin: 1rem;
 }
+
+.welcome p {
+  color: #603d14;
+}
+
+.quote-div {
+  font-family: 'Quantico', sans-serif;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.quote-div p {
+  text-align: center;
+  font-weight: 700;
+  color: #603d14;
+}

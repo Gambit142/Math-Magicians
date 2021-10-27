@@ -21,7 +21,7 @@ const QuotePage = () => {
     text = '';
   }, []);
   return (
-    <div>
+    <div className="quote-div">
       <p>{state}</p>
     </div>
   );
