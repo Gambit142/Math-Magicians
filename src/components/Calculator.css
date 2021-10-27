@@ -10,6 +10,18 @@ body {
   height: 100vh;
 }
 
+.calculator-container {
+  display: flex;
+  margin-top: 5rem;
+  gap: 10rem;
+}
+
+.calculator-container p {
+  font-size: 2rem;
+  font-family: 'Quantico';
+  color: #603d14;
+}
+
 .calculator-div {
   display: flex;
   flex-direction: column;
