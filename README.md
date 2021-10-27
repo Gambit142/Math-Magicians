@@ -2,7 +2,24 @@
 
 > This is a **Single Page App** _(SPA)_ that allows lovers of Mathematics make simple calculations.
 
+> |Mobile Version|Desktop Version
+> |--------------|--------------|
+> |![screenshot](Mobile-Version.png).|![screenshot2](Desktop-Version.png)|
 
+This **Single Page App** _(SPA)_  was built with ReactJS. It has three pages:
+- Home Page
+- Calculator Page
+- Quotes Page
+
+These pages will display when their links in the navigation bar is clicked without the browser loading thanks to `React Router Library`.
+
+On the Calculator Page, the user can perform `mathematical operations`;
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+while the Quotes Page contains several `mathematical quotes` by great historians, and mathematicians. These quotes are randomly displayed and they change every 10 seconds.
 
 
 ## Built With
@@ -16,7 +33,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://gambit142.github.io/Math-Magicians/)
 
 
 ## Getting Started
@@ -54,7 +71,7 @@ npm run build
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Gambit142/Math-Magicians/issues).
 
 ## Show your support
 
