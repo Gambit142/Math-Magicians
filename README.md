@@ -64,7 +64,7 @@ npm run build
 👨🏿 **Francis Ugorji**
 
 - GitHub: [@Gambit142](https://github.com/Gambit142)
-- LinkedIn: [Francis Ugorji](www.linkedin.com/in/francis-ugorji-a567b7168/)
+- LinkedIn: [Francis Ugorji](https://www.linkedin.com/in/francis-ugorji-a567b7168/)
 
 👨🏿 **Damilare Akintoye**
 
