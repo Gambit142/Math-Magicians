@@ -6,8 +6,6 @@ import QuotePage from '../components/quote';
 describe('Check functionality of QuotePage Component', () => {
   test('Check if it renders in DOM', () => {
     render(<QuotePage />);
-    expect(screen.getByText('Obvious is the most dangerous word in mathematics. - Eric Temple Bell'))
-      .toBeInTheDocument();
     expect(screen.queryByText(/Searches for JavaScript/)).toBeNull();
   });
   test('Ensure that text content not included are not rendered in the DOM', () => {
