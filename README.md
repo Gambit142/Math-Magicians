@@ -61,10 +61,15 @@ npm run build
 
 ## Authors
 
-:man::skin-tone-6: **Author1**
+👨🏿 **Francis Ugorji**
 
 - GitHub: [@Gambit142](https://github.com/Gambit142)
-- LinkedIn: [Francis Ugorji](www.linkedin.com/in/francis-ugorji-a567b7168)
+- LinkedIn: [Francis Ugorji](www.linkedin.com/in/francis-ugorji-a567b7168/)
+
+👨🏿 **Damilare Akintoye**
+
+- GitHub: [@dami1080](https://github.com/dami1080)
+- LinkedIn: [Damilare Akintoye](https://www.linkedin.com/in/damilare-akintoye-7b2248174/)
 
 
 ## 🤝 Contributing
