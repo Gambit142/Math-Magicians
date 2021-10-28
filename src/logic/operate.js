@@ -24,4 +24,3 @@ export default function operate(numberOne, numberTwo, operation) {
   }
   throw Error(`Unknown operation '${operation}'`);
 }
-// 'x'

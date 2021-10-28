@@ -20,6 +20,7 @@ const QuotePage = () => {
   useEffect(() => () => {
     text = '';
   }, []);
+
   return (
     <div className="quote-div">
       <p>{state}</p>

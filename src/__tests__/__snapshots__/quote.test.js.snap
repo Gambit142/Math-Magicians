@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check functionality of QuotePage Component renders correctly 1`] = `
+<div
+  className="quote-div"
+>
+  <p>
+    ‘Obvious’ is the most dangerous word in mathematics. - Eric Temple Bell
+  </p>
+</div>
+`;

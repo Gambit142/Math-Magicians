@@ -29,6 +29,7 @@ const Calculator = (props) => {
   } else if (next) {
     result = next;
   }
+
   return (
     <>
       <div className="calculator-container">
