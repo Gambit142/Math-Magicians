@@ -31,9 +31,11 @@ while the Quotes Page contains several `mathematical quotes` by great historians
 - ### Technologies used
   - Webpack, Babelrc, Linters
 
-## Live Demo
+## Live Demo Links
 
-[Live Demo Link](https://gambit142.github.io/Math-Magicians/)
+🔗 [Github](https://gambit142.github.io/Math-Magicians)
+🔗 [Heroku](https://gambit-math-magicians.herokuapp.com/)
+🔗 [Netlify](https://gambit142-math-magicians.netlify.app/)
 
 
 ## Getting Started
