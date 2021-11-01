@@ -2,9 +2,9 @@
 
 > This is a **Single Page App** _(SPA)_ that allows lovers of Mathematics make simple calculations.
 
-> |Mobile Version|Desktop Version
-> |--------------|--------------|
-> |![screenshot](Mobile-Version.png).|![screenshot2](Desktop-Version.png)|
+> |Mobile Version|Desktop Version|
+> |--------------|---------------|
+> |![screenshot](Mobile-Version.png)|![screenshot2](Desktop-Version.png)|
 
 This **Single Page App** _(SPA)_  was built with ReactJS. It has three pages:
 - Home Page
